@@ -26,3 +26,8 @@ After a lot of research and trial and error, we ended up finding a similar varia
 (http://i.imgur.com/dOeyesI.png)
 
 His site was the first to create the spawn system that we wanted and after altering the details used to fit our own objects and assets, we were able to spawn the mice in Unity once the Play button was pressed. 
+
+######Our Code
+After playing around with the different variables and their values, we figured out which axis we needed to change to make the mice spawn where we needed them to. 
+
+After changing the mouseX, Y, and Z values and placing a momentary terrain, the mice spawned accurately. The next step is to insert our Maya terrain and set the values accordingly.
