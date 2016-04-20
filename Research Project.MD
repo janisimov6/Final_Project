@@ -13,7 +13,7 @@ This code showed us how to instantiate objects using C#, which made understandin
 
 ######Sample Code
 ![Code 1]
-(https://i.imgur.com/hn2hwmW.png)
+(http://i.imgur.com/K8rof9B.png)
 
 ######Our Code
 This was the first code that I tried to instantiate the mice into our game. The assets were already inside Unity and able to be viewed in the project. When I hit Play in the scene we were using at the time, the mouse would show up directly in front of the camera and just sit there, not running the animation. The problem arose when the minPos and maxPos variables could not be read in Unity for whatever reason. So we ended up taking some variables from this code, but altering the function to create one titled "SpawnMouse". We also replaced the minPos and maxPos with "var mouseX" and "var mouseZ"
