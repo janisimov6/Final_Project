@@ -42,5 +42,5 @@ After playing around with the different variables and their values, we figured o
 
 After changing the mouseX, Y, and Z values and placing a momentary terrain, the mice spawned accurately. The next step is to insert our Maya terrain and set the values accordingly.
 
-##Arguement For
+##Conclusion
 This is the best way to code it because each aspect and variable makes sense and is organized well. We have these objects interacting with a lot of other prefabs so keeping it as simple as possible is definitely the best idea for us.
