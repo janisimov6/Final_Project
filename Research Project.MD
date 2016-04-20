@@ -1,4 +1,4 @@
-#AI CODE 
-######By Morgan Maslow and Jennie Anisimov
 ![Header]
-(http://pixelatedgeek.com/wp-content/uploads/2011/01/Portal-2.jpg)
+(https://i.imgur.com/Z7w3RJB.png)
+#Instantiating Animated Objects from Maya (mice) in Random Locations in our Terrain.
+######By Morgan Maslow and Jennie Anisimov
