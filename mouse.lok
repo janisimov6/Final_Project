@@ -1,0 +1,14 @@
+#pragma strict
+ var prefab : GameObject;
+ var distance = 10.0;
+ 
+ function Update () {
+     if (Input.GetMouseButtonDown(0)) {
+     
+         var position = Vector3(Input.mousePosition.x, Input.mousePosition.y, distance);
+         position = Camera.main.ScreenToWorldPoint(position);
+         transform.LookAt(position);    
+         Debug.Log(position);    
+
+     }
+ }
