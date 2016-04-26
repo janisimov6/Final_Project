@@ -1,0 +1,21 @@
+#pragma strict
+ 
+var bulletPrefab : Transform;
+var player : GameObject;
+var force : float = 2000;
+var shootForce : float = 1000;
+ 
+function Update () {
+    if(Input.GetMouseButtonDown(0)){
+         //fire bullet   
+ 
+         fire();
+ 
+        //audio clip
+    }
+}
+ 
+function fire(){
+    var instanceBullet = Instantiate(bulletPrefab,transform.position,Quaternion.identity);
+        instanceBullet.GetComponent.<Rigidbody>().AddForce(transform.forward*shootForce);
+}
