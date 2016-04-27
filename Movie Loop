@@ -1,0 +1,21 @@
+using UnityEngine;
+using System.Collections;
+
+public class Play : MonoBehaviour {
+
+	public MovieTexture movTexture;
+	public bool loop;
+
+	// Use this for initialization
+	void Start () {
+		GetComponent<Renderer>().material.mainTexture = movTexture;
+		movTexture.loop = true;
+		GetComponent<Renderer>().material.mainTexture = movTexture;
+		movTexture.Play();
+	}
+
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
